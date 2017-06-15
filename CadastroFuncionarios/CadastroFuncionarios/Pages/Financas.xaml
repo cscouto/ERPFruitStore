@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoja.Pages.Financas"
+             Title=" Financas">
+  
+  <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Total Compras: $" FontSize="24" />
+      <Label x:Name="lbTotalCompras" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Total Vendas: $" FontSize="24" />
+      <Label x:Name="lbTotalVendas" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Saldo Atual: $" FontSize="24" />
+      <Label x:Name="lbSaldoAtual" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Lucro Atual: $" FontSize="24" />
+      <Label x:Name="lbLucroAtual" FontSize="24" />
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Valor Venda Em Estoque: $" FontSize="24" />
+      <Label x:Name="lbValorVendaEstoque" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Valor Compra Em Estoque: $" FontSize="24" />
+      <Label x:Name="lbValorCompraEstoque" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Saldo Atual Estoque: $" FontSize="24" />
+      <Label x:Name="lbSaldoAtualEstoque" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Lucro Previsto Estoque: $" FontSize="24" />
+      <Label x:Name="lbLucroPrevisto" FontSize="24" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Lucro Total Previsto: $" FontSize="24" />
+      <Label x:Name="lbLucroTotalPrevisto" FontSize="24" />
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

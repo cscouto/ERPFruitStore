@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoja.Pages.Fornecedor.FornecedorDetailsPage"
+             Title=" Detalhes do Fornecedor">
+  <StackLayout Padding="10" HorizontalOptions="Center">
+    <Image Source="businessman.png" />
+    <Label x:Name="lbName" TextColor="White" FontSize="30" />
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Código:" TextColor="White" FontSize="20" />
+      <Label x:Name="lbId" TextColor="White" FontSize="20"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="CNPJ:" TextColor="White" FontSize="20"/>
+      <Label x:Name="lbCnpj" TextColor="White" FontSize="20"/>
+    </StackLayout>
+    <Button x:Name="btEdit" Text="Editar" TextColor="White" BackgroundColor="Teal" HorizontalOptions="FillAndExpand" />
+  </StackLayout>
+</ContentPage>

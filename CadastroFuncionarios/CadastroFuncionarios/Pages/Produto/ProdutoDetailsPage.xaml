@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoja.Pages.Produto.ProdutoDetailsPage"
+             Title=" Detalhes do Produto">
+  <StackLayout Padding="10" HorizontalOptions="Center">
+    <Image x:Name="ImageIcon" />
+    <Label x:Name="lbName" TextColor="White" FontSize="30" HorizontalOptions="Center" />
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+      <Label Text="Código:" TextColor="White" FontSize="20"  />
+      <Label x:Name="lbId" TextColor="White" FontSize="20"/>  
+    </StackLayout>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+      <Label Text="Preço:" TextColor="White" FontSize="20"/>
+      <Label x:Name="lbPreco" TextColor="White" FontSize="20"/>
+    </StackLayout>
+    <Button x:Name="btEdit" Text="Editar" TextColor="White" BackgroundColor="Teal" HorizontalOptions="Center" />
+  </StackLayout>
+</ContentPage>

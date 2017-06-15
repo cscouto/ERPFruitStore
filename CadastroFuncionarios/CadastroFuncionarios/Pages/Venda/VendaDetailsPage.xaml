@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoja.Pages.Venda.VendaDetailsPage"
+             Title=" Detalhes da Venda">
+
+  <StackLayout Padding="10">
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Codigo:" />
+      <Label x:Name="lbId" TextColor="White" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Data da Venda:" />
+      <Label x:Name="lbData" TextColor="White" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Valor Total:" />
+      <Label x:Name="lbValorTotal" TextColor="White" />
+    </StackLayout>
+    <Label Text="Produtos: " />
+    <ListView x:Name="lvProdutos" />
+  </StackLayout>
+</ContentPage>

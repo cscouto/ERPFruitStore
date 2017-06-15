@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoja.Pages.Fornecedor.CadastraFornecedorPage"
+             Title=" Cadastrar Fornecedores">
+  <StackLayout Padding="10" HorizontalOptions="Center">
+    <Label Text="Fornecedores" Font="24" HorizontalOptions="Center" TextColor="White"/>
+    <Entry x:Name ="EntryDescricao" Placeholder="Descricao" HorizontalTextAlignment="Center"  />
+    <Entry x:Name ="EntryCNPJ" Placeholder="CNPJ"  HorizontalTextAlignment="Center" Keyboard="Numeric" />
+    <Button x:Name="btCadastrar" Text="Cadastrar Fornecedor" HorizontalOptions="Center" BackgroundColor="Teal" TextColor="White"/>
+  </StackLayout>
+</ContentPage>
